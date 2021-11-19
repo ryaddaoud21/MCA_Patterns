@@ -1,0 +1,20 @@
+public static class PizzaBuilder{
+    private String  name;
+    private boolean  tomato_Sauce;
+    private boolean  Olive;
+    private boolean  Anchovy;
+    private boolean  Chicken;
+    private boolean  Cheese;
+    private boolean  Cheese1;
+    private boolean  Cheese2;
+    private boolean  Cheese3;
+    private boolean  Cheese4;
+    private boolean  vegetabes;
+    private boolean  white_sauce;
+    private double price;
+
+    public PizzaBuilder(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+}
